@@ -1,8 +1,11 @@
 # Config sheet for Screen
 # Place in ~/.screenrc
 
-# Bind Crtl + ] to Move next region
+# Keybindings
 bindkey "^]" focus
+bindkey "^|" split -v
+bindkey "^_" split
+bindkey "^x" remove
 
 startup_message off
 
